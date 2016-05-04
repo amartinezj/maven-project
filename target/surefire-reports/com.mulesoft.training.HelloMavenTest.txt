@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mulesoft.training.HelloMavenTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.806 sec <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
-retrieveFlightsAddsAppropriateHeader(com.mulesoft.training.HelloMavenTest)  Time elapsed: 1.753 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.797 sec <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
+retrieveFlightsAddsAppropriateHeader(com.mulesoft.training.HelloMavenTest)  Time elapsed: 1.687 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mulesoft.training.HelloMavenTest.retrieveFlightsAddsAppropriateHeader(HelloMavenTest.java:23)
 
