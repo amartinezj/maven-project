@@ -1,8 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.mulesoft.training.HelloMavenTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.797 sec <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
-retrieveFlightsAddsAppropriateHeader(com.mulesoft.training.HelloMavenTest)  Time elapsed: 1.687 sec  <<< ERROR!
-java.lang.NullPointerException
-	at com.mulesoft.training.HelloMavenTest.retrieveFlightsAddsAppropriateHeader(HelloMavenTest.java:23)
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.955 sec <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
+mavenFlowReturnsHelloMaven(com.mulesoft.training.HelloMavenTest)  Time elapsed: 5.957 sec  <<< ERROR!
+org.mule.api.lifecycle.LifecycleException: Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@54dafa2c
+Caused by: org.mule.api.DefaultMuleException: Address already in use: bind (java.net.BindException)
+Caused by: java.net.BindException: Address already in use: bind
+
+retrieveFlightsAddsAppropriateHeader(com.mulesoft.training.HelloMavenTest)  Time elapsed: 1.123 sec  <<< ERROR!
+org.mule.api.lifecycle.LifecycleException: Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@1fb1332a
+Caused by: org.mule.api.DefaultMuleException: Address already in use: bind (java.net.BindException)
+Caused by: java.net.BindException: Address already in use: bind
 

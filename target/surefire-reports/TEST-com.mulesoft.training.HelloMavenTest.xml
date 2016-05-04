@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="10.797" tests="2" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="7.955" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="C:\MAVEN\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_74\bin;C:\MAVEN\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\MMC\mmc-distribution-mule-console-bundle-3.7.0\mmc-3.7.0\apache-tomcat-7.0.52\bin;C:\Users\a.martinez\.dnx\bin;C:\Users\a.martinez\AppData\Local\atom\bin;C:\Users\a.martinez\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files (x86)\CrSSL\bin;C:\AnypointStudio-BIS-64bit-5.4.3;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_74\bin;C:\MAVEN\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\MMC\mmc-distribution-mule-console-bundle-3.7.0\mmc-3.7.0\apache-tomcat-7.0.52\bin;C:\Users\a.martinez\.dnx\bin;C:\Users\a.martinez\AppData\Local\atom\bin;C:\Users\a.martinez\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files (x86)\CrSSL\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,186 +51,116 @@
     <property name="java.version" value="1.8.0_74"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\MAVEN\apache-maven-3.3.9\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="8.006"/>
-  <testcase name="retrieveFlightsAddsAppropriateHeader" classname="com.mulesoft.training.HelloMavenTest" time="1.687">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mulesoft.training.HelloMavenTest.retrieveFlightsAddsAppropriateHeader(HelloMavenTest.java:23)
+  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="5.957">
+    <error message="Failed to invoke lifecycle phase &quot;start&quot; on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@54dafa2c" type="org.mule.api.lifecycle.LifecycleException">org.mule.api.lifecycle.LifecycleException: Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@54dafa2c
+Caused by: org.mule.api.DefaultMuleException: Address already in use: bind (java.net.BindException)
+Caused by: java.net.BindException: Address already in use: bind
+</error>
+    <system-out><![CDATA[
+================================================================================
+= Testing: mavenFlowReturnsHelloMaven                                          =
+================================================================================
+INFO  2016-05-04 15:53:37,604 [Thread-1] com.mulesoft.training.HelloMavenTest: Using working directory for test: C:\Users\A3B18~1.MAR\AppData\Local\Temp\junit8622946331071317967
+INFO  2016-05-04 15:53:37,775 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2016-05-04 15:53:37,943 [Thread-1] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@56998d79: startup date [Wed May 04 15:53:37 CEST 2016]; root of context hierarchy
+INFO  2016-05-04 15:53:39,551 [Thread-1] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+WARN  2016-05-04 15:53:39,793 [Thread-1] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
+WARN  2016-05-04 15:53:39,793 [Thread-1] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
+INFO  2016-05-04 15:53:42,502 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: Active_MQ
+INFO  2016-05-04 15:53:42,553 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
+INFO  2016-05-04 15:53:42,557 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: logFlights
+INFO  2016-05-04 15:53:42,557 [Thread-1] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@5f444451
+INFO  2016-05-04 15:53:42,573 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Initialising service: logFlights.stage1
+INFO  2016-05-04 15:53:42,584 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: mavenFlow
+INFO  2016-05-04 15:53:42,584 [Thread-1] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@503f8b81
+INFO  2016-05-04 15:53:42,609 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Initialising service: mavenFlow.stage1
+INFO  2016-05-04 15:53:42,610 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: retrieveFlights
+INFO  2016-05-04 15:53:42,610 [Thread-1] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@6ca4da9
+INFO  2016-05-04 15:53:42,614 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Initialising service: retrieveFlights.stage1
+INFO  2016-05-04 15:53:42,818 [Thread-1] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit8622946331071317967\queue-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit8622946331071317967\queue-tx-log\tx2.log
+INFO  2016-05-04 15:53:42,828 [Thread-1] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit8622946331071317967\queue-xa-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit8622946331071317967\queue-xa-tx-log\tx2.log
+INFO  2016-05-04 15:53:42,907 [Thread-1] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='maven-project.xml'}]"
+INFO  2016-05-04 15:53:42,911 [Thread-1] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
+INFO  2016-05-04 15:53:42,911 [Thread-1] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
+INFO  2016-05-04 15:53:42,947 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
+INFO  2016-05-04 15:53:42,949 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: logFlights
+INFO  2016-05-04 15:53:42,950 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Disposing service: logFlights.stage1
+INFO  2016-05-04 15:53:42,951 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: mavenFlow
+INFO  2016-05-04 15:53:42,951 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Disposing service: mavenFlow.stage1
+INFO  2016-05-04 15:53:42,952 [Thread-1] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: retrieveFlights
+INFO  2016-05-04 15:53:42,952 [Thread-1] org.mule.processor.SedaStageLifecycleManager: Disposing service: retrieveFlights.stage1
+INFO  2016-05-04 15:53:42,955 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Disposing model: _muleSystemModel
+INFO  2016-05-04 15:53:42,958 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Disposing connector: Active_MQ
+INFO  2016-05-04 15:53:43,047 [Thread-1] org.mule.config.spring.MuleArtifactContext: Closing org.mule.config.spring.MuleArtifactContext@56998d79: startup date [Wed May 04 15:53:37 CEST 2016]; root of context hierarchy
+INFO  2016-05-04 15:53:43,155 [Thread-1] org.mule.DefaultMuleContext: 
+**********************************************************************
+* Mule Context shut down normally on: 4/05/16 15:53                  *
+* Server was up for: 0 days, 0 hours, 0 mins, 0.241 sec              *
+**********************************************************************
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/a.martinez/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/a.martinez/.m2/repository/org/apache/activemq/activemq-all/5.13.3/activemq-all-5.13.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+]]></system-err>
+  </testcase>
+  <testcase name="retrieveFlightsAddsAppropriateHeader" classname="com.mulesoft.training.HelloMavenTest" time="1.123">
+    <error message="Failed to invoke lifecycle phase &quot;start&quot; on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@1fb1332a" type="org.mule.api.lifecycle.LifecycleException">org.mule.api.lifecycle.LifecycleException: Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@1fb1332a
+Caused by: org.mule.api.DefaultMuleException: Address already in use: bind (java.net.BindException)
+Caused by: java.net.BindException: Address already in use: bind
 </error>
     <system-out><![CDATA[
 ================================================================================
 = Testing: retrieveFlightsAddsAppropriateHeader                                =
 ================================================================================
-INFO  2016-05-04 15:34:45,296 [Thread-14] com.mulesoft.training.HelloMavenTest: Using working directory for test: C:\Users\A3B18~1.MAR\AppData\Local\Temp\junit4777935598746782998
-INFO  2016-05-04 15:34:45,303 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
-INFO  2016-05-04 15:34:45,315 [Thread-14] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@78644f82: startup date [Wed May 04 15:34:45 CEST 2016]; root of context hierarchy
-INFO  2016-05-04 15:34:45,740 [Thread-14] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-WARN  2016-05-04 15:34:45,773 [Thread-14] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
-WARN  2016-05-04 15:34:45,773 [Thread-14] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
-INFO  2016-05-04 15:34:45,935 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: Active_MQ
-INFO  2016-05-04 15:34:45,953 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
-INFO  2016-05-04 15:34:45,955 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: logFlights
-INFO  2016-05-04 15:34:45,956 [Thread-14] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@12ee67ec
-INFO  2016-05-04 15:34:45,959 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Initialising service: logFlights.stage1
-INFO  2016-05-04 15:34:45,960 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: mavenFlow
-INFO  2016-05-04 15:34:45,960 [Thread-14] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@45954972
-INFO  2016-05-04 15:34:45,964 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Initialising service: mavenFlow.stage1
-INFO  2016-05-04 15:34:45,965 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: retreatFlights
-INFO  2016-05-04 15:34:45,965 [Thread-14] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@37dc90bb
-INFO  2016-05-04 15:34:45,970 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Initialising service: retreatFlights.stage1
-INFO  2016-05-04 15:34:45,974 [Thread-14] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit4777935598746782998\queue-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit4777935598746782998\queue-tx-log\tx2.log
-INFO  2016-05-04 15:34:45,979 [Thread-14] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit4777935598746782998\queue-xa-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit4777935598746782998\queue-xa-tx-log\tx2.log
-INFO  2016-05-04 15:34:46,003 [Thread-14] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='maven-project.xml'}]"
-INFO  2016-05-04 15:34:46,006 [Thread-14] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
-INFO  2016-05-04 15:34:46,006 [Thread-14] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
-INFO  2016-05-04 15:34:46,060 [Thread-14] org.mule.module.http.internal.listener.DefaultHttpListenerConfig: Listening for requests on http://0.0.0.0:8081
-INFO  2016-05-04 15:34:46,412 [Thread-14] org.mule.transport.jms.activemq.ActiveMQJmsConnector: Connected: ActiveMQJmsConnector
-{
-  name=Active_MQ
-  lifecycle=initialise
-  this=395d06bd
-  numberOfConcurrentTransactedReceivers=4
-  createMultipleTransactedReceivers=true
-  connected=true
-  supportedProtocols=[jms]
-  serviceOverrides=<none>
-}
-
-INFO  2016-05-04 15:34:46,412 [Thread-14] org.mule.transport.jms.activemq.ActiveMQJmsConnector: Starting: ActiveMQJmsConnector
-{
-  name=Active_MQ
-  lifecycle=initialise
-  this=395d06bd
-  numberOfConcurrentTransactedReceivers=4
-  createMultipleTransactedReceivers=true
-  connected=true
-  supportedProtocols=[jms]
-  serviceOverrides=<none>
-}
-
-INFO  2016-05-04 15:34:46,412 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Starting connector: Active_MQ
-INFO  2016-05-04 15:34:46,413 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Starting model: _muleSystemModel
-INFO  2016-05-04 15:34:46,414 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Starting flow: logFlights
-INFO  2016-05-04 15:34:46,414 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Starting service: logFlights.stage1
-INFO  2016-05-04 15:34:46,417 [Thread-14] org.mule.transport.jms.activemq.ActiveMQJmsConnector: Registering listener: logFlights on endpointUri: jms://Flights
-INFO  2016-05-04 15:34:46,418 [Thread-14] org.mule.transport.service.DefaultTransportServiceDescriptor: Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
-INFO  2016-05-04 15:34:46,418 [Thread-14] org.mule.transport.service.DefaultTransportServiceDescriptor: Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
-INFO  2016-05-04 15:34:46,418 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
-INFO  2016-05-04 15:34:46,419 [Thread-14] org.mule.transport.jms.MultiConsumerJmsMessageReceiver: Connecting clusterizable message receiver
-INFO  2016-05-04 15:34:46,429 [Thread-14] org.mule.transport.jms.MultiConsumerJmsMessageReceiver: Endpoint jms://Flights has been successfully reconnected.
-INFO  2016-05-04 15:34:46,429 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
-INFO  2016-05-04 15:34:46,429 [Thread-14] org.mule.transport.jms.MultiConsumerJmsMessageReceiver: Starting clusterizable message receiver
-INFO  2016-05-04 15:34:46,430 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Starting flow: mavenFlow
-INFO  2016-05-04 15:34:46,430 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Starting service: mavenFlow.stage1
-INFO  2016-05-04 15:34:46,448 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Starting flow: retreatFlights
-INFO  2016-05-04 15:34:46,449 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Starting service: retreatFlights.stage1
-INFO  2016-05-04 15:34:46,455 [Thread-14] org.mule.DefaultMuleContext: 
+INFO  2016-05-04 15:53:43,302 [Thread-5] com.mulesoft.training.HelloMavenTest: Using working directory for test: C:\Users\A3B18~1.MAR\AppData\Local\Temp\junit6755166355268924203
+INFO  2016-05-04 15:53:43,311 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2016-05-04 15:53:43,320 [Thread-5] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@5da9488b: startup date [Wed May 04 15:53:43 CEST 2016]; root of context hierarchy
+INFO  2016-05-04 15:53:43,761 [Thread-5] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+WARN  2016-05-04 15:53:43,804 [Thread-5] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
+WARN  2016-05-04 15:53:43,804 [Thread-5] org.mule.expression.DefaultExpressionManager: Expression string is not an expression.  Use isExpression(String) to validate first
+INFO  2016-05-04 15:53:43,972 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: Active_MQ
+INFO  2016-05-04 15:53:43,989 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
+INFO  2016-05-04 15:53:43,992 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: logFlights
+INFO  2016-05-04 15:53:43,992 [Thread-5] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@471707ca
+INFO  2016-05-04 15:53:43,996 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Initialising service: logFlights.stage1
+INFO  2016-05-04 15:53:43,997 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: mavenFlow
+INFO  2016-05-04 15:53:43,997 [Thread-5] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@66603a22
+INFO  2016-05-04 15:53:44,002 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Initialising service: mavenFlow.stage1
+INFO  2016-05-04 15:53:44,003 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: retrieveFlights
+INFO  2016-05-04 15:53:44,004 [Thread-5] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@b169c41
+INFO  2016-05-04 15:53:44,008 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Initialising service: retrieveFlights.stage1
+INFO  2016-05-04 15:53:44,012 [Thread-5] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit6755166355268924203\queue-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit6755166355268924203\queue-tx-log\tx2.log
+INFO  2016-05-04 15:53:44,015 [Thread-5] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\a.martinez\AppData\Local\Temp\junit6755166355268924203\queue-xa-tx-log\tx1.log and C:\Users\a.martinez\AppData\Local\Temp\junit6755166355268924203\queue-xa-tx-log\tx2.log
+INFO  2016-05-04 15:53:44,039 [Thread-5] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='maven-project.xml'}]"
+INFO  2016-05-04 15:53:44,041 [Thread-5] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
+INFO  2016-05-04 15:53:44,041 [Thread-5] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
+INFO  2016-05-04 15:53:44,093 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
+INFO  2016-05-04 15:53:44,095 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: logFlights
+INFO  2016-05-04 15:53:44,095 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Disposing service: logFlights.stage1
+INFO  2016-05-04 15:53:44,096 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: mavenFlow
+INFO  2016-05-04 15:53:44,096 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Disposing service: mavenFlow.stage1
+INFO  2016-05-04 15:53:44,097 [Thread-5] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: retrieveFlights
+INFO  2016-05-04 15:53:44,097 [Thread-5] org.mule.processor.SedaStageLifecycleManager: Disposing service: retrieveFlights.stage1
+INFO  2016-05-04 15:53:44,099 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Disposing model: _muleSystemModel
+INFO  2016-05-04 15:53:44,101 [Thread-5] org.mule.lifecycle.AbstractLifecycleManager: Disposing connector: Active_MQ
+INFO  2016-05-04 15:53:44,125 [Thread-5] org.mule.config.spring.MuleArtifactContext: Closing org.mule.config.spring.MuleArtifactContext@5da9488b: startup date [Wed May 04 15:53:43 CEST 2016]; root of context hierarchy
+INFO  2016-05-04 15:53:44,326 [Thread-5] org.mule.DefaultMuleContext: 
 **********************************************************************
-* Mule ESB and Integration Platform                                  *
-* Version: 3.7.3 Build: 900fdf64                                     *
-* MuleSoft, Inc.                                                     *
-* For more information go to http://www.mulesoft.org                 *
-*                                                                    *
-* Server started: 4/05/16 15:34                                      *
-* Server ID: f6e43300-11fc-11e6-b373-28924a258a4d                    *
-* JDK: 1.8.0_74 (mixed mode)                                         *
-* OS encoding: Cp1252, Mule encoding: UTF-8                          *
-* OS: Windows 7 - Service Pack 1 (6.1, amd64)                        *
-* Host: mne628 (169.254.190.233)                                     *
-*                                                                    *
-* Agents Running: None                                               *
-**********************************************************************
-WARN  2016-05-04 15:34:46,455 [Thread-14] org.mule.model.seda.SedaModel: The <model> element is deprecated in Mule 3.4 and will be removed in Mule 4.0.  Flows do not need to be configured inside a <model> element. 
-INFO  2016-05-04 15:34:46,455 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: main
-INFO  2016-05-04 15:34:46,456 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Starting model: main
-WARN  2016-05-04 15:34:46,457 [Thread-14] org.mule.model.seda.SedaService: Services (SedaService or any custom implementation) are deprecated in Mule 3.4 and will be removed in Mule 4.0. 
-INFO  2016-05-04 15:34:46,457 [Thread-14] org.mule.service.ServiceLifecycleManager: Initialising service: appleService
-INFO  2016-05-04 15:34:46,461 [Thread-14] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2ea071ac
-INFO  2016-05-04 15:34:46,461 [Thread-14] org.mule.component.ComponentLifecycleManager: Initialising component: component.776133196
-INFO  2016-05-04 15:34:46,461 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Initialising service: appleService
-INFO  2016-05-04 15:34:46,462 [Thread-14] org.mule.service.ServiceLifecycleManager: Starting service: appleService
-INFO  2016-05-04 15:34:46,462 [Thread-14] org.mule.component.ComponentLifecycleManager: Starting component: component.776133196
-INFO  2016-05-04 15:34:46,463 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Starting service: appleService
-INFO  2016-05-04 15:34:46,466 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: testConnector
-INFO  2016-05-04 15:34:46,479 [Thread-14] org.mule.tck.testmodels.mule.TestConnector: Connected: TestConnector
-{
-  name=testConnector
-  lifecycle=initialise
-  this=edc6496
-  numberOfConcurrentTransactedReceivers=4
-  createMultipleTransactedReceivers=true
-  connected=true
-  supportedProtocols=[test]
-  serviceOverrides=<none>
-}
-
-INFO  2016-05-04 15:34:46,479 [Thread-14] org.mule.tck.testmodels.mule.TestConnector: Starting: TestConnector
-{
-  name=testConnector
-  lifecycle=initialise
-  this=edc6496
-  numberOfConcurrentTransactedReceivers=4
-  createMultipleTransactedReceivers=true
-  connected=true
-  supportedProtocols=[test]
-  serviceOverrides=<none>
-}
-
-INFO  2016-05-04 15:34:46,480 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Starting connector: testConnector
-INFO  2016-05-04 15:34:46,482 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Stopping flow: logFlights
-INFO  2016-05-04 15:34:46,482 [Thread-14] org.mule.transport.jms.activemq.ActiveMQJmsConnector: Removing listener on endpointUri: jms://Flights
-INFO  2016-05-04 15:34:46,482 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Stopping: 'null'. Object is: MultiConsumerJmsMessageReceiver
-INFO  2016-05-04 15:34:46,483 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Disposing: 'null'. Object is: MultiConsumerJmsMessageReceiver
-INFO  2016-05-04 15:34:46,483 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Stopping service: logFlights.stage1
-INFO  2016-05-04 15:34:46,618 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Stopping flow: mavenFlow
-INFO  2016-05-04 15:34:46,618 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Stopping service: mavenFlow.stage1
-INFO  2016-05-04 15:34:46,648 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Stopping flow: retreatFlights
-INFO  2016-05-04 15:34:46,648 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Stopping service: retreatFlights.stage1
-INFO  2016-05-04 15:34:46,651 [Thread-14] org.mule.service.ServiceLifecycleManager: Stopping service: appleService
-INFO  2016-05-04 15:34:46,651 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Stopping service: appleService
-INFO  2016-05-04 15:34:46,672 [Thread-14] org.mule.component.ComponentLifecycleManager: Stopping component: component.776133196
-INFO  2016-05-04 15:34:46,673 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Stopping model: _muleSystemModel
-INFO  2016-05-04 15:34:46,675 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Stopping connector: Active_MQ
-INFO  2016-05-04 15:34:46,677 [Thread-14] org.mule.module.http.internal.listener.DefaultHttpListenerConfig: Stopped listener on http://0.0.0.0:8081
-INFO  2016-05-04 15:34:46,678 [Thread-14] org.mule.util.queue.QueueXaResourceManager: Stopping ResourceManager
-INFO  2016-05-04 15:34:46,679 [Thread-14] org.mule.util.queue.QueueXaResourceManager: Stopped ResourceManager
-INFO  2016-05-04 15:34:46,681 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
-INFO  2016-05-04 15:34:46,682 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: logFlights
-INFO  2016-05-04 15:34:46,682 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Disposing service: logFlights.stage1
-INFO  2016-05-04 15:34:46,683 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: mavenFlow
-INFO  2016-05-04 15:34:46,683 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Disposing service: mavenFlow.stage1
-INFO  2016-05-04 15:34:46,684 [Thread-14] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: retreatFlights
-INFO  2016-05-04 15:34:46,684 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Disposing service: retreatFlights.stage1
-INFO  2016-05-04 15:34:46,685 [Thread-14] org.mule.service.ServiceLifecycleManager: Disposing service: appleService
-INFO  2016-05-04 15:34:46,685 [Thread-14] org.mule.component.ComponentLifecycleManager: Disposing component: component.776133196
-INFO  2016-05-04 15:34:46,685 [Thread-14] org.mule.processor.SedaStageLifecycleManager: Disposing service: appleService
-INFO  2016-05-04 15:34:46,687 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Disposing model: _muleSystemModel
-INFO  2016-05-04 15:34:46,717 [Thread-14] org.mule.transport.jms.activemq.ActiveMQJmsConnector: Disconnected: ActiveMQJmsConnector
-{
-  name=Active_MQ
-  lifecycle=stop
-  this=395d06bd
-  numberOfConcurrentTransactedReceivers=4
-  createMultipleTransactedReceivers=true
-  connected=true
-  supportedProtocols=[jms]
-  serviceOverrides=<none>
-}
-
-INFO  2016-05-04 15:34:46,718 [Thread-14] org.mule.lifecycle.AbstractLifecycleManager: Disposing connector: Active_MQ
-INFO  2016-05-04 15:34:46,737 [Thread-14] org.mule.config.spring.MuleArtifactContext: Closing org.mule.config.spring.MuleArtifactContext@78644f82: startup date [Wed May 04 15:34:45 CEST 2016]; root of context hierarchy
-INFO  2016-05-04 15:34:46,921 [Thread-14] org.mule.DefaultMuleContext: 
-**********************************************************************
-* Mule Context shut down normally on: 4/05/16 15:34                  *
-* Server was up for: 0 days, 0 hours, 0 mins, 0.917 sec              *
+* Mule Context shut down normally on: 4/05/16 15:53                  *
+* Server was up for: 0 days, 0 hours, 0 mins, 0.287 sec              *
 **********************************************************************
 ]]></system-out>
   </testcase>
